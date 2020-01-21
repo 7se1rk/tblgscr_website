@@ -1,0 +1,65 @@
+h1 {
+    font-size: 14pt; 
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.page-header {
+    background-color: #7BCAE0;
+    height: 80px;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 24pt;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.menu {
+    font-size: 0;
+    width: 80%;
+}
+.menu01,.menu02,.menu03 {
+    background-color:#27AED3;
+    display: inline-block;
+    font-size: 12px;
+    width: 30%;		
+}
+.menu01 {
+    color: #ffffff;
+}
+.menu02 {
+    color: #ffffff;
+}
+.menu03 {
+    color:#ffffff;
+}
+
+form {
+    margin:40px;
+
+}
+
+input[type=text] {
+    border:1px solid #27AED3;
+    font-size: 14px;
+    height: 30px;
+    width: 400px;
+}
+
+.enter {
+    background-color: #ffffff;
+    color: #27AED3;
+    border: 1px solid #27AED3;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    width: 90px;
+}
