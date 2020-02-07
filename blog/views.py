@@ -8,7 +8,9 @@ def home(request):
 def login(request):
     return render(request, 'html/login.html')
 
-def post_list(request):
+def search(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'html/post_list.html', {'posts':posts})
+    return render(request, 'html/search.html', {'posts':posts})
 
+def enter(request):
+    return render(request, 'scr/tabelogscr.py')
