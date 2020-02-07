@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html>
+    <head>
+        <title>内定者課題</title>
+        <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap">
+        <style>
+            li a {
+                color: #ffffff;
+                }
+        </style>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+    
+        <div class="page-header">
+            <h1>食べログお気に入り自動通知</h1>
+        </div>
+        <br>
+        <ul class="menu">
+                    <li class="menu01"><a href="http://127.0.0.1:8000/home/">HOME</a></li>
+                    <li class="menu02"><a href="http://127.0.0.1:8000/login/">LOGIN</a></li>
+                    <li class="menu03"><a href="https://lin.ee/5o8crmO">LINE</a></li>
+        </ul>
+        
+        <form>
+            <label>よく行く場所</label><br>
+            <input type="text" placeholder="（例）梅田、渋谷">
+        </form>
+        <form>
+            <label>キーワード</label><br>
+            <input type="text" placeholder="（例）和食、パスタ、カフェ"></form>
+        
+        <form>
+            <button type="submit" class="enter" onclick="locaion.href='https://127.0.0.1:8000/enter/'">決定</button>
+        </form>
+        
+
+    </body>
+</html>
